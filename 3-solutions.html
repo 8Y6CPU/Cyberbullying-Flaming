@@ -1,3 +1,84 @@
+<style>
+
+    #navbar {
+        position: sticky;
+        top: 0;
+        background-color: #ffffff; /* Set your desired background color */
+        z-index: 1000; /* Adjust the z-index as needed */
+        /* Add other styles as needed */
+    }
+    .jumbotron{
+        background:url("jumbotron.svg");
+        background-size:cover;
+        margin-bottom:1em;
+        height:900px;
+        display:flex;
+        align-items:center;
+    }
+    
+    /*Card*/
+    .container{
+        margin-left: 2em;
+        margin-right:2em;
+    }
+    /*Carousel*/
+    #carouselExampleIndicators{
+        width:100%;
+        margin:auto;
+        margin-bottom:2em;
+        background-color:rgb(56, 56, 56);
+    }
+    #carouselexampleindicators img {
+        height:650px;
+    }
+    .overlay-text {
+        position: absolute;
+        top: 60%;
+        left:10%;
+        right: 50%;
+        transform: translateY(-0%);
+        color: white;
+        text-align: left;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        max-width: 50%
+    }
+
+    /*Scroll to top button*/
+    .center-button {
+        position: fixed;
+        bottom: 50px;
+        left: 90%;
+        transform: translateX(-50%);
+        text-align: center;
+        z-index: 9999; 
+    }
+    .center-button button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+    }
+    .center-button button:hover {
+        background-color: #003670;
+    }
+
+    /*Carousel button*/
+    .custom-carousel-btn {
+        background-color: blue; /* Your desired background color */
+        color: white; /* Your desired text color */
+        /* Add other styles as needed */
+    }
+
+    /* Button darken hover effect */
+    .custom-carousel-btn:hover {
+        background-color: darkblue;
+    }
+
+</style>
+
 <!--Nav Bar-->
 <body>
     <nav class="navbar navbar-expand-lg bg-light"id="navbar">
