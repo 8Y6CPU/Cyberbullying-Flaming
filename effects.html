@@ -1,85 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Bootstrap Exercise 3</title>
-        <style>
-            #navbar {
-                position: sticky;
-                top: 0;
-                background-color: #ffffff;
-                /* Set your desired background color */
-                z-index: 1000;
-                /* Adjust the z-index as needed */
-                /* Add other styles as needed */
-            }
-            
-            .jumbotron {
-                background: url("jumbotron.svg");
-                background-size: cover;
-                margin-bottom: 1em;
-                height: 900px;
-                display: flex;
-                align-items: center;
-            }
-            
-            /*Card*/
-            .container {
-                margin-left: 2em;
-                margin-right: 2em;
-            }
-            
-            /*Carousel*/
-            #carouselExampleIndicators {
-                width: 100%;
-                margin: auto;
-                margin-bottom: 2em;
-                background-color: rgb(56, 56, 56);
-            }
-            
-            #carouselexampleindicators img {
-                height: 650px;
-            }
-            
-            .overlay-text {
-                position: absolute;
-                top: 60%;
-                left: 10%;
-                right: 50%;
-                transform: translateY(-0%);
-                color: white;
-                text-align: left;
-                padding: 20px;
-                background-color: rgba(0, 0, 0, 0.5);
-                max-width: 50%
-            }
-            
-            /*Scroll to top button*/
-            .center-button {
-                position: fixed;
-                bottom: 50px;
-                left: 90%;
-                transform: translateX(-50%);
-                text-align: center;
-                z-index: 9999;
-            }
-            
-            .center-button button {
-                padding: 10px 20px;
-                border: none;
-                border-radius: 5px;
-                background-color: #007bff;
-                color: white;
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap Exercise 3</title>
+    <style>
+        #navbar {
+            position: sticky;
+            top: 0;
+            background-color: #ffffff;
+            /* Set your desired background color */
+            z-index: 1000;
+            /* Adjust the z-index as needed */
+            /* Add other styles as needed */
+        }
+
+        .jumbotron {
+            background: url("jumbotron.svg");
+            background-size: cover;
+            margin-bottom: 1em;
+            height: 900px;
+            display: flex;
+            align-items: center;
+        }
+
+        /*Card*/
+        .container {
+            margin-left: 2em;
+            margin-right: 2em;
+        }
+
+        /*Carousel*/
+        #carouselExampleIndicators {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 2em;
+            background-color: rgb(56, 56, 56);
+        }
+
+        #carouselexampleindicators img {
+            height: 650px;
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 60%;
+            left: 10%;
+            right: 50%;
+            transform: translateY(-0%);
+            color: white;
+            text-align: left;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            max-width: 50%
+        }
+
+        /*Scroll to top button*/
+        .center-button {
+            position: fixed;
+            bottom: 50px;
+            left: 90%;
+            transform: translateX(-50%);
+            text-align: center;
+            z-index: 9999;
+        }
+
+        .center-button button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
             cursor: pointer;
         }
 
         .center-button button:hover {
             background-color: #003670;
         }
-        
+
         /*Carousel button*/
         .custom-carousel-btn {
             background-color: blue;
@@ -88,31 +88,54 @@
             /* Your desired text color */
             /* Add other styles as needed */
         }
-        
+
         /* Button darken hover effect */
         .custom-carousel-btn:hover {
             background-color: darkblue;
         }
-        
+
         .imgs {
             background-image: url('undraw_online_message_re_3m5v.svg');
             background-size: cover;
         }
-        
+
         .imgss {
             background-image: url('undraw_chilling_re_4iq9.svg');
             background-size: cover;
         }
-        </style>
 
-<!--Scroll to top script-->
-<script>
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    }
+
+        .center-button {
+            position: fixed;
+            bottom: 50px;
+            left: 90%;
+            transform: translateX(-50%);
+            text-align: center;
+            z-index: 9999;
+        }
+
+        .center-button button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        .center-button button:hover {
+            background-color: #003670;
+        }
+    </style>
+
+    <!--Scroll to top script-->
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
     </script>
 
     <!-- CSS only -->
@@ -121,6 +144,43 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Cyberbullying: Flaming</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carouselExampleIndicators">What?</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#cards" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Cards
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Cyberbullying2.html">How does flaming start?</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="effects.html">Impact of flaming</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="3-solutions.html">How to stop flame-wars</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
     <!-- Add the Jumbotron -->
@@ -142,17 +202,17 @@
     </div>
 
     <p class="fs-3 text-info fw-bold">
-    However, for youths/children, they have not fully developed their brain and thus are vunerable to these type
-    of
-    comments online.<br>
+        However, for youths/children, they have not fully developed their brain and thus are vunerable to these type
+        of
+        comments online.<br>
 
-    (Why?) As it is due to their inability to cope or deal with these comments due to their age.<br>
+        (Why?) As it is due to their inability to cope or deal with these comments due to their age.<br>
 
-    (What will happen?) They will eventually become absorbed by the argument due to their inability to cope
-    and move on from it, this lingering effect may cause the victim to be mentally harmed.<br>
+        (What will happen?) They will eventually become absorbed by the argument due to their inability to cope
+        and move on from it, this lingering effect may cause the victim to be mentally harmed.<br>
 
-    (Results) Decreased grades, isolation from peers and family,
-    refusal to follow their daily routine such as going to school, and if servere, suicide.<br>
+        (Results) Decreased grades, isolation from peers and family,
+        refusal to follow their daily routine such as going to school, and if servere, suicide.<br>
     </p>
 
 
