@@ -101,6 +101,16 @@
         }
     </style>
 
+    <!--Scroll to top script-->
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -115,13 +125,13 @@
 
 
         However, for youths/children, they have not fully developed their brain and thus are vunerable to these type of
-        comments online. 
-        
+        comments online.
+
         (Why?) As it is due to their inability to cope or deal with these comments due to their age.
-        
+
         (What will happen?) They will eventually become absorbed by the argument due to their inability to cope
         and move on from it, this lingering effect may cause the victim to be mentally harmed.
-        
+
         (Results) Decreased grades, isolation from peers and family,
         refusal to follow their daily routine such as going to school, and if servere, suicide.
     </p>
@@ -136,16 +146,12 @@
 
 
 
-    <!--Scroll to top script-->
-    <script>
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
-    </script>
-
+    <!--Scroll up button-->
+    <div>
+        <div class="center-button" id="STT">
+            <button onclick="scrollToTop()">Go to Top</button>
+        </div>
+    </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
