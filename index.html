@@ -10,9 +10,9 @@
     #navbar {
         position: sticky;
         top: 0;
-        background-color: #ffffff; /* Set your desired background color */
-        z-index: 1000; /* Adjust the z-index as needed */
-        /* Add other styles as needed */
+        background-color: #ffffff; 
+        z-index: 1000; 
+       
     }
     .jumbotron{
         background:url("jumbotron.svg");
@@ -107,8 +107,9 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
 
 <!--Nav Bar-->
 <body>
-    <nav class="navbar navbar-expand-lg bg-light"id="navbar">
-        <div class="container-fluid">
+
+<nav class="navbar navbar-expand-lg bg-light"id="navbar">
+    <div class="container-fluid">
         <a class="navbar-brand" href="#">Cyberbullying: Flaming</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -128,9 +129,9 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="Cyberbullying2.html">How does flaming start?</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#cards">Impact of flaming</a></li>
+                    <li><a class="dropdown-item" href="effects.html">Impact of flaming</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#cards">How to stop flame-wars</a></li>
+                    <li><a class="dropdown-item" href="3-solution.html">How to stop flame-wars</a></li>
                 </ul>
             </li>
             </ul>
@@ -190,7 +191,7 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
         <span class="visually-hidden">Next</span>
     </button>
     <br>
-    <br>
+<br>
 </div>
 
 <!--Cards-->
@@ -202,7 +203,7 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
                 <div class="card-body">
                     <h5 class="card-title fw-bold">How do they start?</h5>
                     <p class="card-text fw-bolder">How could these 'Flame-Wars' Start? Was it an insult, misunderstanding or even a personal attack? </p>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">Find out how</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="Cyberbullying2.html">Find out how</button>
                 </div>
             </div>
         </div>
@@ -212,7 +213,7 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
                 <div class="card-body">
                     <h5 class="card-title fw-bold">What impact do they have?</h5>
                     <p class="card-text fw-bolder">It's online only right? Surely there wouldn't be too much impact from a few nasty comments and insults? </p>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">Find out what</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="effects.html">Find out what</button>
                 </div>
             </div>
         </div>
@@ -222,69 +223,8 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
                 <div class="card-body">
                     <h5 class="card-title fw-bold">How to stop them?</h5>
                     <p class="card-text fw-bolder">It does no good for both our minds and bodies, yet it happens so frequently on social media and games, how to stop them?</p>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">Find out how</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="3-solutions.html">Find out how</button>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modals below -->
-
-<!--Modal 1 Content-->
-<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modal1Label">Click the picture below to find out how</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <a href="Cyberbullying2.html">
-                    <img src="modal1.svg" alt="Clickable Image" style="width: 100%; max-width: 833px; height: auto;">
-                </a>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal 2 content -->
-<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modal1Label"> picture below to find out</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <a href="#">
-                    <img src="#" alt="Clickable Image" style="width: 100%; max-width: 833px; height: auto;">
-                </a>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal 3 content -->
-<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modal1Label">Click the picture below to find out how</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <a href="#">
-                    <img src="#" alt="Clickable Image" style="width: 100%; max-width: 833px; height: auto;">
-                </a>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
